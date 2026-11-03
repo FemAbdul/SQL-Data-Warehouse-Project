@@ -1,6 +1,9 @@
-# SQl-Data-Warehouse-Project: From Raw CRM & ERP Data to Analytics-Ready Models
+# SQl-Data-Warehouse-Project
+
+### From Raw CRM & ERP Data to Analytics-Ready Models
 
 An end-to-end data warehouse built in **SQL Server** using the **Medallion Architecture** (Bronze → Silver → Gold). It consolidates sales data from two disconnected source systems (CRM and ERP) into a clean **star schema** that analysts can query directly for reporting.
+
 ---
 
 ## 📌 Business Problem
@@ -9,7 +12,7 @@ A company stores customer, product, and sales data across two separate systems, 
 
 - **Inconsistent and duplicated records** — the same customer appears in both systems with different formats and keys.
 - **Dirty data** — null values, extra whitespace, invalid dates, and abbreviated codes (e.g. `M`/`F`, `S`/`M`) that are not report-friendly.
-- **No single source of truth**
+- **No single source of truth** - every report means manually stitching files together, and two analysts can get two different answers.
   
 **Goal:** to build a reliable, documented warehouse that integrates both sources, cleans and standardizes the data, and exposes a business-ready model for **sales, customer, and product analytics**.
 
