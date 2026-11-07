@@ -121,4 +121,4 @@ sql-data-warehouse-project/
 
 ## 🙏 Acknowledgements
 
-This project was built by following the **SQL Data Warehouse from Scratch** tutorial series by [Data with Baraa]. I implemented the full pipeline myself and documented it here as part of my analytics portfolio.
+This project was built by following the **SQL Data Warehouse from Scratch** tutorial series by Data with Baraa. I implemented the full pipeline myself and documented it here as part of my analytics portfolio.
