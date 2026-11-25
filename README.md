@@ -1,4 +1,4 @@
-# SQl-Data-Warehouse-Project
+# SQL-Data-Warehouse-Project
 
 ### From Raw CRM & ERP Data to Analytics-Ready Models
 
@@ -80,6 +80,8 @@ Two source systems, delivered as CSV files:
 - Built the **fact table** by linking sales to dimension surrogate keys.
 - Exposed everything as **views** for flexible, always-current access.
 
+### 4. Exploratory Data Analysis(EDA):
+- SQL exploratory and advanced analysis on the gold layer, see [warehouse-EDA/](warehouse-EDA/)
 ---
 
 ## 🛠️ Tech Stack
@@ -104,6 +106,7 @@ sql-data-warehouse-project/
 │   ├── silver/               # DDL + silver cleansing/load procedure
 │   └── gold/                 # Gold views (dimensions & fact)
 ├── tests/                    # Data quality check scripts
+├── warehouse-EDA/            # EDA, advanced analytics and reporting views
 └── README.md
 ```
 
